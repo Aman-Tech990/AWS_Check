@@ -6,7 +6,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const app = express();
-const port = process.env.PORT || 3005;
+const port = 3000;
 
 app.get("/health", (req, res) => {
     return res.status(200).json({
