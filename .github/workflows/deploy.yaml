@@ -6,7 +6,7 @@ name: deploy to ec2
 
 jobs:
   deploy:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout code
