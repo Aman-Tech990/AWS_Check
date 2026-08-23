@@ -2,4 +2,4 @@ services:
   aws:
     build: ./
     ports:
-      - 5000:3005
+      - 5000:3000
